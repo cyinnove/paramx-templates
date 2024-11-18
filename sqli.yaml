@@ -1,0 +1,180 @@
+# Header's and other for future use
+injections:
+  - tag: SQLI
+    parts:
+      - part: query
+        list:
+          - id
+          - username
+          - password
+          - page
+          - category
+          - sort
+          - filter
+          - action
+          - limit
+          - offset
+          - order
+          - search
+          - search_term
+          - count
+          - title
+          - content
+          - type
+          - status
+          - ref
+          - session
+          - code
+          - group
+          - query
+          - name
+          - price
+          - rating
+          - email
+          - redirect
+          - template
+          - view
+          - lang
+          - mode
+          - format
+
+      - part: header
+        list:
+          - user-agent
+          - referer
+          - cookie
+          - host
+          - accept
+          - x-forwarded-for
+          - authorization
+          - x-requested-with
+          - content-type
+          - connection
+          - accept-language
+          - accept-encoding
+          - x-csrf-token
+          - x-forwarded-host
+          - x-forwarded-port
+          - x-real-ip
+          - pragma
+          - cache-control
+
+      - part: body
+        list:
+          - query
+          - data
+          - json
+          - payload
+          - params
+          - config
+          - settings
+          - content
+          - details
+          - description
+          - metadata
+          - title
+          - body
+          - content_type
+          - status_code
+          - response
+          - filter
+          - post_data
+          - form_data
+          - user_data
+          - request_data
+          - session_id
+          - csrf_token
+          - callback
+
+  - tag: NOSQLI
+    parts:
+      - part: query
+        list:
+          - username
+          - password
+          - filter
+          - action
+          - collection
+          - id
+          - search
+          - limit
+          - offset
+          - order
+          - page
+          - sort
+          - status
+          - data
+          - ref
+          - search_term
+          - tag
+          - name
+          - type
+          - category
+          - tag
+          - email
+          - phone
+          - address
+          - city
+          - country
+          - zip
+          - coordinates
+          - query
+          - text
+          - description
+          - date
+
+      - part: header
+        list:
+          - user-agent
+          - referer
+          - cookie
+          - authorization
+          - content-type
+          - accept
+          - x-forwarded-for
+          - x-requested-with
+          - x-csrf-token
+          - x-forwarded-host
+          - x-real-ip
+          - accept-language
+          - accept-encoding
+          - pragma
+          - cache-control
+          - connection
+          - x-forwarded-port
+          - x-forwarded-proto
+          - authorization-token
+
+      - part: body
+        list:
+          - json
+          - query
+          - params
+          - data
+          - payload
+          - content
+          - body
+          - post_data
+          - form_data
+          - user_data
+          - metadata
+          - response
+          - status
+          - error
+          - info
+          - timestamp
+          - message
+          - data_id
+          - type
+          - id
+          - content_type
+          - type_id
+          - user_action
+          - request_data
+          - filters
+          - query_string
+          - session_id
+          - csrf_token
+          - redirect_url
+          - source
+
